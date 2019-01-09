@@ -17,7 +17,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'default'
 
 " Nerdtree configuration
-map <C-n> :NERDTreeToggle<CR>
+map <C-c> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$', '\~$']
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
