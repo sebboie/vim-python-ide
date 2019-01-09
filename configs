@@ -59,7 +59,7 @@ nmap <F8> :TagbarToggle<CR>
 nnoremap <buffer> <F5> :exec "!python3" shellescape(@%, 1)<cr>                  
 
 " Powerline settings
-laststatus=2                                                                
+set laststatus=2                                                                
 set t_Co=256                                                                    
 let g:Powerline_symbols="fancy"                                                 
 let g:Powerline_pycmd="py3"
