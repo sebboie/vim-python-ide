@@ -19,7 +19,6 @@ let g:airline#extensions#tabline#formatter = 'default'
 " Nerdtree configuration
 map <C-c> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['\.pyc$', '\~$']
-autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
