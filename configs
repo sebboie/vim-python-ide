@@ -55,7 +55,7 @@ let g:UltiSnipsJumpBackwardTrigger='<c-k>'
 
 nmap <F8> :TagbarToggle<CR>
 " Run python scripts with F5
-nnoremap <buffer> <F5> :exec "!python3" shellescape(@%, 1)<cr>                  
+:nnoremap <buffer> <F5> :exec "!python3" shellescape(@%, 1)<CR> 
 
 " Powerline settings
 set laststatus=2                                                                
