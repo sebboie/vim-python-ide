@@ -63,3 +63,6 @@ set t_Co=256
 let g:Powerline_symbols="fancy"                                                 
 let g:Powerline_pycmd="py3"
 
+" Reduce the sluggishness of pymode
+let g:pymode_rope_regenerate_on_write = 1
+
